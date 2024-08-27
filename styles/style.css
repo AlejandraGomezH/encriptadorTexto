@@ -52,7 +52,6 @@ body{
     justify-content: center;
     margin: 2% 2%;
     gap: 80px;
-    background-color: #0A3871;
     padding: 3rem;
 }
 
@@ -61,7 +60,6 @@ body{
     display: flex;
     flex-direction: column;
     gap: 40px;
-    background-color: var(--color-terciario);
 }
 
 .presentacion_contenido_titulo{
@@ -102,7 +100,7 @@ body{
 }
 
 .contenedor_warning{
-    background-color: var(--color-terciario);
+
     display: flex;
     padding: 1rem;
     gap: 5px;
@@ -153,6 +151,9 @@ body{
     gap: 20px;
     padding: 2rem;
     border-radius: 9px;
+    width: 50%;
+    height: 28rem;
+
 }
 
 .footer{

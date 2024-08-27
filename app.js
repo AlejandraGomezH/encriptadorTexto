@@ -17,7 +17,7 @@ function encriptarTexto() {
     }
 
     textoEncriptadoGlobal = textoEncriptado;
-    asignarTextoElemento('#textoEncriptado', textoEncriptado);
+    asignarTextoElemento('#contenedor_encriptado', textoEncriptado);
 
     console.log(textoEncriptado);
     //console.log(typeof(textoEncriptado));
@@ -30,7 +30,7 @@ function desencriptarTexto() {
     for (let i = 0; i < textoEncriptadoGlobal.length; i++) {
         textoDesencriptado += String.fromCharCode(textoEncriptadoGlobal.charCodeAt(i) - 1);
     }
-    asignarTextoElemento('#textoEncriptado', textoDesencriptado);
+    asignarTextoElemento('#contenedor_encriptado', textoDesencriptado);
     return textoDesencriptado;
 }
 
