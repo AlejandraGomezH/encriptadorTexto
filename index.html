@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+</head>
+<body>
+    <script src="app.js" defer></script>
+    <header class="header">
+        <img class="header_logo" src="assets/logo_Alura.png" alt="">
+    </header>
+    <main class="presentacion">
+        <section class="presentacion_contenido">
+        <h1 class="presentacion_contenido_titulo" ">Ingrese el texto aqui</h1>
+        <input class="input" id="valorUsuario">
+        <div class="contenedor_warning">
+        <img src="assets/warning.png" alt="">
+        <p class="presentacion_contenido_texto_ayuda">Solo letras minúsculas y sin acentos</p> 
+        </div>
+        
+        <div class="presentacion_enlaces">
+            <button onclick="encriptarTexto()" class="presentacion_enlaces_link">Encriptar</button>
+            <button onclick="desencriptarTexto()" class="presentacion_enlaces_link" >Desencriptar</button>
+        </div>
+        </section>
+        <div class="contenedor_encriptado">
+            <img src="/assets/encriptador.png" alt="Imagen de una persona con una lupa">
+            <h2 class="presentacion_contenido_subtitulo">Ningún mensaje fue encontrado</h2>
+            <p class="presentacion_contenido_texto">Ingresa el texto que desees encriptar o desencriptar.</p>
+            <p class="presentacion_contenido_texto" id="textoEncriptado" ></p>
+    </main>
+    <footer>
+    </footer>
+</body>
